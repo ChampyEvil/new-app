@@ -1,38 +1,48 @@
-.App {
+/* src/App.css */
+.food-menu-container {
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.food-menu-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.food-menu-table th,
+.food-menu-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.food-menu-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.food-menu-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.food-menu-table tr:hover {
+  background-color: #ddd;
+}
+
+.food-menu-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+.food-menu-table td {
+  text-align: center;
+}
+
+.section-header {
+  background-color: #4CAF50; /* สีเขียว */
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 1.2em;
+  text-align: center;
 }
