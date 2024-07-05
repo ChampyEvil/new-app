@@ -118,7 +118,7 @@ const FoodMenuList = () => {
         </tbody>
       </table>
 
-      {/* ตารางสำหรับ Noodle */}
+      {/* ตารางสำหรับ Fried */}
       <table className="food-menu-table">
         <thead>
           <tr>
@@ -139,7 +139,7 @@ const FoodMenuList = () => {
         </tbody>
       </table>
 
-      {/* ตารางสำหรับ Noodle */}
+      {/* ตารางสำหรับ Fried Rice */}
       <table className="food-menu-table">
         <thead>
           <tr>
@@ -160,7 +160,7 @@ const FoodMenuList = () => {
         </tbody>
       </table>
 
-      {/* ตารางสำหรับ Noodle */}
+      {/* ตารางสำหรับ Egg */}
       <table className="food-menu-table">
         <thead>
           <tr>
@@ -181,7 +181,7 @@ const FoodMenuList = () => {
         </tbody>
       </table>
 
-      {/* ตารางสำหรับ Noodle */}
+      {/* ตารางสำหรับ Without Rice */}
       <table className="food-menu-table">
         <thead>
           <tr>
